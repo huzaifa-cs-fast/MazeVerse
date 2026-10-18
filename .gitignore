@@ -66,3 +66,27 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Executables and build output
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+*.ilk
+build/
+bin/
+Debug/
+Release/
+x64/
+
+# IDE / editor files
+.vscode/
+.vs/
+*.code-workspace
+*.sln.docstates
+*.user
+
+# OS junk
+.DS_Store
+Thumbs.db
